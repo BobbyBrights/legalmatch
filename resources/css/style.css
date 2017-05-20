@@ -1,0 +1,259 @@
+body{
+  	/*background-image: radial-gradient(ellipse farthest-corner at 470px 47px , #147ab7 20%, rgba(204, 153, 153, 0.4) 30%, #042f6e 60%); */
+	overflow-x:hidden; 
+	height: 100vh;
+	background: #032c6c;
+}
+.header{
+	padding: 0 68px;
+}
+.content, .footer{
+	padding: 0 90px;
+}
+.header, .footer{
+	background: #fff;
+}
+.footer{
+	height: 220px;
+}
+.logo, .logo-footer, .right-footer-logo{
+    padding: 18px 10px;
+}
+.logo{
+	width: 450px;
+}
+.logo-footer{
+	width: 180px;
+}
+.checkmark{
+	width: 9px;
+}
+.company-features{
+	padding: 0px;
+    font-family: Gotham-medium;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.right-footer-logo{
+	width: 120px;
+	padding: 18px 10px;
+}
+.title-text{
+	color: #fff; 
+	font-family:Gotham-light; 
+	font-size:36px;
+	color:#fff;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+.subtitle-text{
+	color: #fff; 
+	font-family:Gotham-medium; 
+	font-size:24px;
+	color:#fff;
+	margin-top:-5px;
+}
+.custom-input{
+	border-radius: 50px;
+    height: 50px;
+    width:72%;
+    text-align: left;
+    padding-left: 60px;
+}
+.custom-input:focus{
+	-webkit-box-shadow: 0px 0px 26px -1px rgba(255,255,255,0.75);
+	-moz-box-shadow: 0px 0px 26px -1px rgba(255,255,255,0.75);
+	box-shadow: 0px 0px 26px -1px rgba(255,255,255,0.75);
+}
+.input-label{
+	font-family:Gotham-medium; 
+	color:#fff;
+	font-size:14px;
+}
+span.numberedCircle {
+    display: block;
+    height: 25px;
+    width: 25px;
+    line-height: 26px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #d68d00;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.default-font{
+	color:#fff;
+	font-family:Gotham-book;
+}
+.client-profile{
+	width: 55px;
+    margin-bottom: 5px;
+}
+.client-name{
+	color:#fff;
+	font-family:Gotham-medium;
+	font-size:13px;
+}
+.client-address-wrapper{
+	margin-top: -12px; 
+}
+.client-address{
+	color:#dadada;
+	font-family:Gotham-medium;
+	font-size:10px;
+}
+.client-category{
+	color:#fff;
+	font-family:Gotham-medium;
+	font-size:12px;
+}
+.client-review-content{
+	color:#fff;
+	font-family:Gotham-book-italic;
+	font-size:10px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+}
+.module {
+  width: 100%;
+  margin: 0 0 1em 0;
+  overflow: hidden;
+}
+.module p {
+  margin: 0;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+}
+.read-review{
+	color:#fbd243;
+	font-family:Gotham-book;
+	font-size:10px;
+}
+.read-review-icon{
+	margin-top:-2px;
+	cursor:pointer;
+}
+.no-padding{
+	padding: 0px;
+}
+hr.client-divider{
+	border-top: 1px solid #497aa8;
+    margin-top: 8px;
+}
+hr.footer-divider{
+	border-top: 1px solid #efefef;
+    margin-top: 8px;
+}
+.footer-links, .footer-text{
+	color:#929ba4;
+	font-family: Gotham-light;
+}
+.footer-links{
+	font-size: 13px;
+}
+.footer-text{
+	text-align: center;
+	font-size: 11px;
+}
+.legal-category-select, .other-category-select{
+	width: 70%!important;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.legal-category-select li, .other-category-select li{
+	font-family: Gotham-medium;
+	font-size: 13px;
+	color:#5a5d60;
+	padding-left: 20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color:#154370;
+}
+.other-category-select{
+	width:100%!important;
+	padding-left: 0px;
+}
+.other-category-select li{
+	width:100%;
+	padding-left: 0px;
+	font-family: Gotham-book;
+}
+.legal-category-select li:hover{
+	background: #bcd3e3;
+	font-family: Gotham-bold;
+	color: #000;
+}
+.zip-input{
+	color:#83888d; 
+	font-family:Gotham-medium; 
+	font-size:14px;
+}
+.down-arrow{
+	margin-top: 0px;
+    margin-left: -40px;
+    width: 14px;
+}
+#other-catg-modal .modal-header, #subcategories-modal .modal-header{
+    border-bottom: none!important;
+}
+#other-catg-modal .modal-header .modal-title{
+	font-family: Gotham-medium;
+	font-size: 21px;
+	color:#2b2c2d;
+	padding-left: 10px;
+}
+#other-catg-modal .modal-header .modal-subtitle{
+	font-family: Gotham-book;
+	font-size: 14px;
+	color:#000000;
+	padding-left: 10px;
+}
+#other-catg-modal .modal-dialog{
+	overflow-y: initial !important;
+	width: 630px;
+}
+#other-catg-modal .modal-body{
+	overflow: scroll;
+    height: 500px;
+    margin-top:-20px;
+}
+#subcategories-modal .modal-header .modal-question{
+	font-family: Gotham-book;
+    font-size: 16px;
+    color: #4e555c;
+    padding-left: 50px;
+    margin-top: 14px;
+}
+#subcategories-modal .modal-dialog{
+	width: 560px!important;
+}
+#subcategories-modal .modal-body{
+	height: 300px;
+}
+.checkbox-label{
+	font-family: Gotham-book;
+    font-size: 14px;
+}
+.find-lawyer-btn{
+	border-radius: 50px;
+    height: 50px;
+    width: 220px;
+    background: #02377b;
+    color: #fff;
+    font-family: Gotham-bold;
+    font-size: 14px;
+    margin-top:40px;
+}

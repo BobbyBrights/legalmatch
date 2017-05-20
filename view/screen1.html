@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- Bootstrap -->
+	<link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom stylesheet -->
+	<link href="../resources/css/style.css" rel="stylesheet">
+	<link href="../resources/css/font-face.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+	  	<div class="row header">
+		  	<div class="col-md-12">
+		  		<div class="col-md-7 col-sm-12">
+		  			<img src="../resources/img/logo.png" alt="Company Logo" class="logo">
+		  		</div>
+		  		<div class="col-md-5 hidden-md-down" style="padding-top:8px; padding-left: 70px;">
+		  			<div class="row">
+			  			<div class="col-md-1">
+			  				<img src="../resources/img/check.png" alt="check" class="checkmark">
+			  			</div>
+			  			<div class="col-md-11 company-features">
+			  				No fee to present your case
+			  			</div>
+		  			</div>
+		  			<div class="row">
+			  			<div class="col-md-1">
+			  				<img src="../resources/img/check.png" alt="check" class="checkmark">
+			  			</div>
+			  			<div class="col-md-11 company-features">
+			  				Choose from lawyers in your area
+			  			</div>
+		  			</div>
+		  			<div class="row">
+			  			<div class="col-md-1">
+			  				<img src="../resources/img/check.png" alt="check" class="checkmark">
+			  			</div>
+			  			<div class="col-md-11 company-features">
+			  				A 100% confidential service
+			  			</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		</div>
+	<div class="row content">
+	  	<div class="col-md-7">
+	  		<div class="row">
+	  			<div class="col-md-12"><p class="text-left title-text">Find a Lawyer for your Legal Issue</p></div>
+	  			<div class="col-md-12"><p class="text-left subtitle-text">Fast, Free and Confidential</p></div>
+	  		</div>
+	  		<br>
+	  		<div class="row">
+	  			<div class="col-md-12">
+				  <div class="form-group">
+				    <label class="input-label">Enter Zip Code or City:</label>
+				    <span class="numberedCircle">1</span>
+				    <input type="text" class="form-control custom-input zip-input"  placeholder="Does not have to be where you live">
+				  </div>
+				</div>
+				<div class="col-md-12">
+					<div class="form-group" style="margin-top:10px;">
+						<label class="input-label">Choose a category:</label>
+						<span class="numberedCircle two">2</span>
+						<div class="dropdown">
+							<button class="btn dropdown-toggle custom-input category-btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background:#fff;color:#83888d; font-family:Gotham-medium; font-size:14px;">
+						    	Click to choose a legal category
+						    	
+						  	</button>
+						  	<img src="../resources/img/down-arrow.png" alt="arrow" class="down-arrow">
+							<ul class="dropdown-menu legal-category-select" aria-labelledby="dropdownMenu1">
+							    <li value>Family</li>
+							    <li>Criminal Defense</li>
+							    <li>Business</li>
+							    <li>Personal Injury</li>
+							    <li>Bankruptcy & Finances</li>
+							    <li>Products & Services</li>
+							    <li>Employment</li>
+							    <li>Real Estate</li>
+							    <li>Immigration</li>
+							    <li>Wills, Trusts & Estates</li>
+							    <li>Government</li>
+							    <li>Intellectual Property</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a class="default-font" data-toggle="modal" data-target="#other-catg-modal" style="margin-left: 112px;font-size:12px; cursor:pointer;">Can't find your category? Click here.</a>
+				</div>
+	  		</div>
+	  	</div>
+	  	<div class="col-md-5">
+	  		<br><br><br><br><br>
+	  		<div class="row">
+	  			<div class="col-md-12"><p class="default-font" style="font-size:16px;">Clients review LegalMatch lawyers</p></div>
+	  		</div>
+	  		<div class="row">
+	  			<br>
+	  			<!-- Individual Client Reviews-->
+	  			<div class="col-md-12 client-review-wrapper no-padding">
+	  				<div class="col-md-12 no-padding">
+	  					<div class="col-md-3">
+		  					<div class="row text-center">
+			  					<img src="../resources/img/client-1.png" alt="client" class="client-profile">
+		  					</div>
+		  					<div class="row text-center">
+			  					<label class="client-name">Mitchell M.</label>
+		  					</div>
+		  					<div class="row text-center client-address-wrapper">
+			  					<label class="client-address">Cherry Hill, NJ</label>
+		  					</div>				
+	  					</div>
+	  					<div class="col-md-9">
+		  					<div class="row">
+			  					<div class="col-md-4">
+				  					<label class="client-category">Family Law</label>
+			  					</div>
+			  					<div class="col-md-8">
+				  					<img src="../resources/img/ratings.png" alt="ratings" >
+			  					</div>
+		  					</div>
+		  					<div class="row">
+			  					<div class="col-md-12">
+			  						<div class="client-review-content module line-clamp">
+									  	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+									</div>
+			  					</div>
+		  					</div>
+		  					<div class="row text-right">
+			  					<div class="col-md-12">
+			  						<label class="read-review">Read Review&nbsp;&nbsp;&nbsp;<img src="../resources/img/read-review-icon.png" class="read-review-icon"></label>
+								</div>
+		  					</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-md-12"><hr class="client-divider"></div>
+	  			</div>
+	  			<div class="col-md-12 client-review-wrapper no-padding">
+	  				<div class="col-md-12 no-padding">
+	  					<div class="col-md-3">
+		  					<div class="row text-center">
+			  					<img src="../resources/img/client-2.png" alt="client" class="client-profile">
+		  					</div>
+		  					<div class="row text-center">
+			  					<label class="client-name">Joel C.</label>
+		  					</div>
+		  					<div class="row text-center client-address-wrapper">
+			  					<label class="client-address">Little Rock, AK</label>
+		  					</div>				
+	  					</div>
+	  					<div class="col-md-9">
+		  					<div class="row">
+			  					<div class="col-md-7">
+				  					<label class="client-category">Job & Employment Law </label>
+			  					</div>
+			  					<div class="col-md-5">
+				  					<img src="../resources/img/ratings.png" alt="ratings" >
+			  					</div>
+		  					</div>
+		  					<div class="row">
+			  					<div class="col-md-12">
+			  						<div class="client-review-content module line-clamp">
+									  	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+									</div>
+			  					</div>
+		  					</div>
+		  					<div class="row text-right">
+			  					<div class="col-md-12">
+			  						<label class="read-review">Read Review&nbsp;&nbsp;&nbsp;<img src="../resources/img/read-review-icon.png" class="read-review-icon"></label>
+								</div>
+		  					</div>
+	  					</div>
+	  				</div>
+	  				<div class="col-md-12"><hr class="client-divider"></div>
+	  			</div>
+	  			<div class="col-md-12 client-review-wrapper no-padding">
+	  				<div class="col-md-12 no-padding">
+	  					<div class="col-md-3">
+		  					<div class="row text-center">
+			  					<img src="../resources/img/client-3.png" alt="client" class="client-profile">
+		  					</div>
+		  					<div class="row text-center">
+			  					<label class="client-name">Brigida R.</label>
+		  					</div>
+		  					<div class="row text-center client-address-wrapper">
+			  					<label class="client-address">Dallas, TX</label>
+		  					</div>				
+	  					</div>
+	  					<div class="col-md-9">
+		  					<div class="row">
+			  					<div class="col-md-4">
+				  					<label class="client-category">Family Law</label>
+			  					</div>
+			  					<div class="col-md-8">
+				  					<img src="../resources/img/ratings.png" alt="ratings" >
+			  					</div>
+		  					</div>
+		  					<div class="row">
+			  					<div class="col-md-12">
+			  						<div class="client-review-content module line-clamp">
+									  	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+									</div>
+			  					</div>
+		  					</div>
+		  					<div class="row text-right">
+			  					<div class="col-md-12">
+			  						<label class="read-review">Read Review&nbsp;&nbsp;&nbsp;<img src="../resources/img/read-review-icon.png" class="read-review-icon"></label>
+								</div>
+		  					</div>
+	  					</div>
+	  				</div>
+	  			</div>	
+	  		</div>
+	  		<br><br>
+	  	</div>
+	</div>
+	<div class="row footer">
+	  	<div class="col-xs-12 col-md-12" style="margin-top:10px;">
+	  		<div class="row">
+		  		<div class="col-md-3">
+		  			<img src="../resources/img/logo-footer.png" alt="Company Logo" class="logo-footer">
+		  		</div>
+		  		<div class="col-md-7">
+		  			<div class="row text-center" style="margin-top:10px;">
+		  				<br>
+			  			<div class="col-md-5 footer-links">User Agreement Privacy</div>
+			  			<div class="col-md-3 footer-links">Privacy Policy</div>
+			  			<div class="col-md-4 footer-links">Site Map</div>
+		  			</div>
+		  		</div>
+		  		<div class="col-md-2 text-right">
+		  			<img src="../resources/img/truste-footer.png" alt="truste" class="right-footer-logo">
+		  		</div>
+	  		</div>
+	  		<div class="row">
+		  		<div class="col-md-2">
+		  		</div>
+		  		<div class="col-md-7">
+		  			<div class="row">
+		  				<div class="col-md-12 footer-text">
+		  					Copyright 1999-2016 LegalMatch.All Rights Reserved&reg;,
+		  				</div>
+		  			</div>
+		  			<div class="row" style="margin-top:3px;">
+		  				<div class="col-md-12 footer-text">
+		  					the LegalMatch logo, and the traderess are trademarks of LegalMatch Patents Pending.
+		  				</div>
+		  			</div>
+		  		</div>
+		  		<div class="col-md-3 text-right">
+		  			<img src="../resources/img/bbb-footer.png" alt="bbb" class="right-footer-logo" style="padding-top:0px;margin-top:-10px;">
+		  		</div>
+	  		</div>
+	  		<div class="col-md-12"><hr class="footer-divider"></div>
+	  	</div>
+	  </div>
+	</div>
+	<!-- Other Categories Modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="other-catg-modal">
+		<div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      	<p class="modal-title">OTHER CATEGORIES</p>
+		      	<p class="modal-subtitle">Choose the category that best fits your case</p>
+		      </div>
+		      <div class="modal-body">
+		        <div class="col-md-6" style="padding:0px;">
+		        	<ul class="other-category-select" style="list-style:none; padding:0px">
+					    <li>Abuse (Child, Domestic, Sexual)</li>
+					    <li>Agencies & Administration</li>
+					    <li>Automobile ( DUI, Crimes, Speeding )</li>
+					    <li>Automobiles ( Accidents, Insurance )</li>
+					    <li>Banking ( Business, Consumer )</li>
+					    <li>Bars & Restaurants</li>
+					    <li>Business Formation & Dissolution</li>
+					    <li>Children (Adoption, Custody, Support)</li>
+					    <li>Class Actions (Bad Drugs, Products)</li>
+					    <li>Commercial Law and Contracts</li>
+					    <li>Constitutional Law</li>
+					    <li>Construction (Disputes, Liens)</li>
+					    <li>Categories Item Here</li>
+					    <li>Loremipsum Dolorsitamet,</li>
+					    <li>Lonsectetur Scingelit  (Baseererkj, Mereit)</li>
+					    <li>Miam Euvelit</li>
+					    <li>Mempor Auctor (Estiarma, Toeruslej)</li>
+					    <li>Nisultricies Dictumest.</li>
+					    <li>Ntfring Sodalelit (Aeeticl Restoustoust)</li>
+					    <li>Ntvarius Lectus & Congue </li>
+					    <li>Pellentesque</li>
+					    <li>Rigula Aliquamattis (Nestusotu, Wewreist)</li>
+					    <li>Set Tigulempor</li>
+					    <li>Sehicula Sedsitamet</li>
+					    <li>Seque Nesturre </li>
+					    <li>Tollis Gaurissed</li>
+					</ul>
+		        </div>
+		        <div class="col-md-6">
+					<ul class="other-category-select" style="list-style:none; padding:0px">
+					    <li>Loremipsum Dolorsitamet,</li>
+					    <li>Lonsectetur Scingelit  (Baseererkj, Mereit)</li>
+					    <li>Miam Euvelit</li>
+					    <li>Mempor Auctor (Estiarma, Toeruslej)</li>
+					    <li>Nisultricies Dictumest.</li>
+					    <li>Ntfring Sodalelit (Aeeticl Restoustoust)</li>
+					    <li>Ntvarius Lectus & Congue </li>
+					    <li>Pellentesque</li>
+					    <li>Rigula Aliquamattis (Nestusotu, Wewreist)</li>
+					    <li>Set Tigulempor</li>
+					    <li>Sehicula Sedsitamet</li>
+					    <li>Seque Nesturre </li>
+					    <li>Tollis Gaurissed</li>
+					    <li>Abuse (Child, Domestic, Sexual)</li>
+					    <li>Agencies & Administration</li>
+					    <li>Automobile ( DUI, Crimes, Speeding )</li>
+					    <li>Automobiles ( Accidents, Insurance )</li>
+					    <li>Banking ( Business, Consumer )</li>
+					    <li>Bars & Restaurants</li>
+					    <li>Business Formation & Dissolution</li>
+					    <li>Children (Adoption, Custody, Support)</li>
+					    <li>Class Actions (Bad Drugs, Products)</li>
+					    <li>Commercial Law and Contracts</li>
+					    <li>Constitutional Law</li>
+					    <li>Construction (Disputes, Liens)</li>
+					    <li>Categories Item Here</li>
+					</ul>
+		        </div>
+		      </div>
+		    </div><!-- /.modal-content -->
+	  	</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<!-- subcategories modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="subcategories-modal">
+		<div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      	<span class="numberedCircle">3</span>
+		      	<p class="modal-question">Which Family law issue(s) apply to your case?</p>
+		      </div>
+		      <div class="modal-body">
+		        <div class="col-md-6" style="padding:0px;">
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Adoptions
+						    </label>
+						</div>
+		        	</div>
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Guardianship
+						    </label>
+						</div>
+		        	</div>
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Child Custody and Visitation
+						    </label>
+						</div>
+		        	</div>
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Paternity
+						    </label>
+						</div>
+		        	</div>
+		        </div>
+		        <div class="col-md-6" style="padding:0px;">
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Adoptions
+						    </label>
+						</div>
+		        	</div>
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Guardianship
+						    </label>
+						</div>
+		        	</div>
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Child Custody and Visitation
+						    </label>
+						</div>
+		        	</div>
+		        	<div class="col-md-12">
+		        		<div class="checkbox">
+						    <label class="checkbox-label">
+						      <input type="checkbox"> Paternity
+						    </label>
+						</div>
+		        	</div>
+		        </div>
+		        <div class="row">
+		        	<br><br>
+		        	<div class="col-md-12 text-center">
+		        		<button class="btn btn-default find-lawyer-btn" type="submit">FIND A LAWYER NOW</button>
+		        	</div>
+		       	</div>
+		      </div>
+		      </div>
+		    </div><!-- /.modal-content -->
+	  	</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+		    $(".legal-category-select li").click(function() {
+			    $(".category-btn").text($(this).text()); // gets text contents of clicked li
+			    $('#subcategories-modal').modal(); // opens Screen 3 modal
+			});
+		});
+	</script>
+</body>
+</html>
